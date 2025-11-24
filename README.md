@@ -2,9 +2,7 @@
 A highly customized, performance-oriented **Fastfetch** configuration file (`fastfetch.jsonc`).
 Designed for **Arch Linux / EndeavourOS** users with **Nvidia GPUs**, focusing on data density, visual hierarchy, and hardware monitoring accuracy.
 
-![Preview](https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/fastfetch.svg)
-
-*(Replace this line with your own screenshot later.)*
+![Preview](preview.png)
 
 ---
 
