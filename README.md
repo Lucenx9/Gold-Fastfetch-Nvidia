@@ -1,4 +1,4 @@
-# ⚡ Gold Fastfetch Nvidia Config
+ # ⚡ Gold Fastfetch Nvidia Config
 A highly customized, performance-oriented **Fastfetch** configuration file (`fastfetch.jsonc`).
 Designed for **Arch Linux / EndeavourOS** users with **Nvidia GPUs**, focusing on data density, visual hierarchy, and hardware monitoring accuracy.
 
@@ -79,5 +79,3 @@ Repeat the same pattern for your Root, Backup or any additional custom mounts.
 Unlicense / Public Domain.
 Feel free to fork, modify and steal parts of this config for your own setup.
 Feel free to open an issue or PR if you want to extend support to other distros, layouts or GPU vendors.
-
-
