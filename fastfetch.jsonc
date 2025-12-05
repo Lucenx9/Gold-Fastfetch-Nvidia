@@ -48,6 +48,11 @@
       "keyColor": "light_magenta",
       "format": "{host-name}"
     },
+    {
+      "type": "datetime",
+      "key": "│ 󰃰 Time",
+      "keyColor": "light_magenta"
+    },
 
     // --- SOFTWARE ---
     {
@@ -74,13 +79,17 @@
     },
     {
       "type": "command",
-      "key": "│ 󰏖 AUR",
+      "key": "│ 󰣇 AUR",
       "keyColor": "cyan",
       "text": "pacman -Qm | wc -l"
     },
     {
       "type": "shell",
       "key": "│ 󰟤 Shell"
+    },
+    {
+      "type": "locale",
+      "key": "│ 󰗊 Locale"
     },
     {
       "type": "de",
