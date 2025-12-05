@@ -172,7 +172,8 @@
     {
       "type": "display",
       "key": "│ 󰍹 Display",
-      "keyColor": "blue"
+      "keyColor": "blue",
+      "format": "{width}x{height} @ {refresh-rate}Hz ({physical-width}mm x {physical-height}mm)"
     },
     {
       "type": "theme",
