@@ -222,12 +222,12 @@
     {
       "type": "player",
       "key": "│ 󰎈 Player",
-      "keyColor": "blue"
+      "keyColor": "yellow"
     },
     {
       "type": "media",
       "key": "│ 󰝚 Playing",
-      "keyColor": "blue"
+      "keyColor": "yellow"
     },
 
     // --- FOOTER ---
