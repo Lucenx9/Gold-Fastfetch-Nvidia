@@ -96,7 +96,7 @@
     },
     {
       "type": "terminalfont",
-      "key": "│ 󰛖 Font"
+      "key": "│ 󰛖 Term Font"
     },
 
     // --- HARDWARE ---
@@ -173,6 +173,11 @@
     {
       "type": "icons",
       "key": "│ 󰀻 Icons",
+      "keyColor": "blue"
+    },
+    {
+      "type": "font",
+      "key": "│ 󰛖 Sys Fonts",
       "keyColor": "blue"
     },
     // Modulo Cursore Aggiunto
