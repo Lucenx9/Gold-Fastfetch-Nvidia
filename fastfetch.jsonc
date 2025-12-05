@@ -125,7 +125,7 @@
       "type": "command",
       "key": "│ 󰢮 GPU",
       "keyColor": "green",
-      "text": "nvidia-smi --query-gpu=name,memory.total,clocks.max.graphics --format=csv,noheader | awk -F', ' '{print $1 \" [\" $2 \"] @ \" $3}'"
+      "text": "nvidia-smi --query-gpu=name,memory.total,temperature.gpu --format=csv,noheader 2>/dev/null | awk -F', ' '{print $1 \" [\" $2 \"] @ \" $3 \"°C\"}'"
     },
     {
       "type": "memory",
@@ -176,6 +176,11 @@
       "format": "{width}x{height} @ {refresh-rate}Hz ({physical-width}mm x {physical-height}mm)"
     },
     {
+      "type": "sound",
+      "key": "│ 󰓃 Audio",
+      "keyColor": "blue"
+    },
+    {
       "type": "theme",
       "key": "│ 󰉼 Theme",
       "keyColor": "blue"
@@ -190,10 +195,14 @@
       "key": "│ 󰛖 Sys Fonts",
       "keyColor": "blue"
     },
-    // Modulo Cursore Aggiunto
     {
       "type": "cursor",
       "key": "│ 󰇀 Cursor",
+      "keyColor": "blue"
+    },
+    {
+      "type": "gamepad",
+      "key": "│ 󰊗 Gamepad",
       "keyColor": "blue"
     },
     {
@@ -208,6 +217,16 @@
     {
       "type": "battery",
       "key": "│ 󰂄 Battery",
+      "keyColor": "blue"
+    },
+    {
+      "type": "player",
+      "key": "│ 󰎈 Player",
+      "keyColor": "blue"
+    },
+    {
+      "type": "media",
+      "key": "│ 󰝚 Playing",
       "keyColor": "blue"
     },
 
