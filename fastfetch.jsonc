@@ -146,21 +146,21 @@
       "key": "│ 󰋊 System",
       "keyColor": "green",
       "folders": "/",
-      "format": "{size-used} / {size-total} ({size-percentage}%) [{filesystem}] {size-percentage-bar}"
+      "format": "{size-used} / {size-total} ({size-percentage}) [{filesystem}] {size-percentage-bar}"
     },
     {
       "type": "disk",
       "key": "│ 󰋊 Games",
       "keyColor": "green",
       "folders": "/mnt/games",
-      "format": "{size-used} / {size-total} ({size-percentage}%) [{filesystem}] {size-percentage-bar}"
+      "format": "{size-used} / {size-total} ({size-percentage}) [{filesystem}] {size-percentage-bar}"
     },
     {
       "type": "disk",
       "key": "│ 󰋊 Backup",
       "keyColor": "green",
       "folders": "/mnt/backup",
-      "format": "{size-used} / {size-total} ({size-percentage}%) [{filesystem}] {size-percentage-bar}"
+      "format": "{size-used} / {size-total} ({size-percentage}) [{filesystem}] {size-percentage-bar}"
     },
 
     // --- MISC ---
